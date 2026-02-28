@@ -14,4 +14,5 @@ var doubleToInt = inputDouble.toInt();
 var intToString = inputInt.toString();
 var doubleToString = inputDouble.toString();
 
+
 }
