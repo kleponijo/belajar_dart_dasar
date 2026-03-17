@@ -12,4 +12,4 @@ if(nilai >= 75) {
 print(ucapan);
 
 
-}
+} // nsdandjsa
