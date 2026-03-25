@@ -19,7 +19,7 @@ void main() {
   var data = sayHello('Nadif');
   print(data);
 
-  var total = sum([10, 10, 10, 10]);
-  print(total);
+  // var total = sum([10, 10, 10, 10]); bisa
+  print(sum([10, 10, 10, 10])); // bisa
 
 }
