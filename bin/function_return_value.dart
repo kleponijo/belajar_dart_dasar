@@ -20,6 +20,7 @@ void main() {
   print(data);
 
   // var total = sum([10, 10, 10, 10]); bisa
+  // print(total);
   print(sum([10, 10, 10, 10])); // bisa
 
 }
