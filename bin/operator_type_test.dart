@@ -1,8 +1,8 @@
 void main() {
   dynamic variable = 100;
 
-  // var variableString = variable as String; // error
-  var variableInt = variable as int;
+  // var variableString = variable as String; // error, dipaksa ke string padahal int
+  var variableInt = variable as int; // paksa menjadi tipe data yang ada
   
 
   print(variable);
