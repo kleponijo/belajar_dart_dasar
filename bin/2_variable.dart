@@ -1,25 +1,39 @@
 void main() {
-  var name = 'Eko Kurniawan Khannedy';
+  var name = 'Nadif Zidan Tazaka';
+
   print(name);
-  name = 'Budi';
+  print(name);
+  name = 'Budi Nugraha';
+  print(name);
   print(name);
 
-  final name2 = 'Nadif Zidan Tazaka';
-  print(name2);
-  print(name2);
+  var firstName = 'Nadif';
+  final lastName = 'Zidan';
 
-  final array1 = [1, 2, 3]; // dalam array masih bisa diubah
-  const array2 = [1, 2, 3]; // immutable tidak bisa diubah sama sekali
+  firstName = 'Budi';
+  // lastName = 'Klepon'; tidak bisa
+
+  print(firstName);
+  print(lastName);
+
+  final array1 = [1, 2, 3];
+  const array2 = [1, 2, 3];
+
+  // array1 = [0, 0, 0]; gak bisa karena final
+  array1[0] = 10;
+
+  // array2 = [0, 0, 0];
+  // array2[0] = 10; gak bisa karena const
 
   print(array1);
-  print(array2); // error warning
+  print(array2);
 
-  late var value = getValue(); // eksekusi nanti akhir
-  print('variabel sudah dibuat');
+  late var value = getValue();
+  print('Variabel sudah dibuat');
   print(value);
 }
 
 String getValue() {
-  print('getValue() dipanggil');
-  return 'data Eko Kurniawan Khannedy';
+  print('Get Value Dipanggil');
+  return 'Nadif Zidan Tazaka';
 }

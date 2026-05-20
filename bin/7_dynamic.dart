@@ -1,10 +1,10 @@
 void main() {
-  dynamic variable = 100;
-  print(variable);
+  dynamic variabel = 100;
+  print(variabel);
 
-  variable = true;
-  print(variable);
+  variabel = true;
+  print(variabel);
 
-  variable = 'Nadif';
-  print(variable);
+  variabel = 'Nadif';
+  print(variabel);
 }

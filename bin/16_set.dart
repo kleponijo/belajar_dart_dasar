@@ -1,30 +1,21 @@
 void main() {
   Set<int> numbers = {};
-  var string = <String>{};
+  var strings = <String>{};
   var doubles = <double>{};
 
   print(numbers);
 
-  var names = <String>{
-    'Eko',
-    'Eko',
-    'Kurniawan',
-    'Kurniawan',
-    'Khannedy',
-    'Nadif',
-  };
-
-  // names.add('Eko');
-  // names.add('Eko');
-  // names.add('Kurniawan');
-  // names.add('Kurniawan');
-  // names.add('Khannedy');
+  var names = <String>{'Nadif', 'Zidan', 'Zidan', 'Tazaka', 'Tazaka'};
   // names.add('Nadif');
+  // names.add('Nadif');
+  // names.add('Zidan');
+  // names.add('Zidan');
+  // names.add('Tazaka');
 
   print(names);
   print(names.length);
-
-  names.remove('Eko');
+  names.remove('Nadif');
+  names.remove('Tidak Ada');
   print(names);
   print(names.length);
 }

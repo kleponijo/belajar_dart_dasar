@@ -7,5 +7,5 @@ void main() {
   print(first * second);
   print(first / second);
   print(first ~/ second);
-  print(first % second);
+  print(first % second); // modulus / modulo
 }

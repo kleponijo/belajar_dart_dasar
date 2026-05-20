@@ -1,25 +1,25 @@
 void main() {
   List<int> listInt = [];
+
   var listString = <String>[];
 
   print(listInt);
   print(listString);
 
-  var names = <String>['Eko', 'Kurniawan', 'Khannedy', 'Nadif'];
-  // names.add("Eko");
-  // names.add("Kurniawan");
-  // names.add("Khannedy");
-  // names.add("Nadif");
+  var name = <String>['Nadif', 'Zidan', 'Tazaka'];
 
-  print(names);
-  print(names.length);
+  // name.add('Nadif');
+  // name.add('Zidan');
+  // name.add('Tazaka');
 
-  print(names[0]);
+  print(name);
+  print(name.length);
 
-  names[0] = "Klepon";
-  print(names);
+  print(name[0]);
+  name[0] = 'Budi';
+  print(name[0]);
 
-  names.removeAt(0);
-  print(names);
-  print(names[0]);
+  name.removeAt(1);
+  print(name);
+  print(name[1]);
 }

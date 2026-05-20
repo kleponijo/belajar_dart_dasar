@@ -1,12 +1,13 @@
 void main() {
-  int nomor1 = 10;
-  double nomor2 = 10.5;
+  int number1 = 10;
+  double number2 = 10.5;
 
-  print(nomor1);
-  print(nomor2);
+  print(number1);
+  print(number2);
 
-  num nomor = 10;
-  print(nomor);
-  nomor = 10.5;
-  print(nomor);
+  num number = 10;
+  print(number);
+
+  number = 10.5;
+  print(number);
 }

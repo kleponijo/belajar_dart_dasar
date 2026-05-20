@@ -1,5 +1,3 @@
 void main() {
-  print('Hello World');
-  print("Hello World2");
-  print("Hello Dunia");
+  print('Hello World!');
 }

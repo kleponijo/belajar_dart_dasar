@@ -1,15 +1,12 @@
-/// this docummentation
-/// this is documentation comment dart
+/// this is main function
+/// will executed by dart
 void main() {
-  // saioldnisad
+  // this is name variabel
   var name = 'Nadif Zidan Tazaka';
-  var name2 = 'Eko Kurniawan Khannedy';
-
-  /** 
-   * this is multiline comment
-   * you can make again in here, komen bintang
-   * trying
+  /* 
+    this is multiline comment
+    you can write like this
   */
+
   print(name);
-  print(name2);
 }
